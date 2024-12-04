@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать в приложение Научно-технический вестник!\nИспользуйте ID для загрузки журналов."
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/dont_show_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Больше не показывать" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ОК"
+        android:layout_gravity="end" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="45dp">
+
+    <EditText
+        android:id="@+id/journal_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ID журнала" />
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Скачать файл" />
+
+    <Button
+        android:id="@+id/view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Смотреть" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить" />
+
+</LinearLayout>
